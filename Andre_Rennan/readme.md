@@ -1,6 +1,6 @@
 # Sumário
 1.  Concepção
-2.  Desenho
+2.  Projetar
 3.  Implementação
 4.  Operação
 5.  Referências
