@@ -10,25 +10,58 @@
 
 # 1. INTRODUÇÃO
 O THEREMIN é um instrumento musical inventado  por Lev Sergeivitch Termen que após a guerra trocou seu nome para Leon Theremin. 
-Provavelmente um dos primeiros -senão o primeiro – instrumento musical eletrônico do mundo foi inventado em 1919.
+Provavelmente um dos primeiros, senão o primeiro, instrumento musical eletrônico do mundo foi inventado em 1919. Em 1929, logo após uma crise financeira, os direitos do instrumento foram vendido a empresa americana RADIO CORPORATION OF AMERICA (RCA) que lançou o produto “Thereminvox”. 
 
-Para tocar o THEREMIN não é necessário encostar no instrumento, nele existem 2 antenas uma responsável pelo ajuste do volume e a outra pelo ajuste da tonalidade. Para utilizar o instrumento basta que o indivíduo aproxime ou afaste as mãos dessas antenas.
+No THEREMIN analógico não existem cordas ou teclas e não é necessário contato com o instrumento, nele existem 2 antenas uma responsável pelo ajuste do volume e a outra pelo ajuste da tonalidade. Para utilizar o instrumento basta que o indivíduo aproxime ou afaste as mãos dessas antenas, variando assim a capacitância entre as antenas e corpo.
 
 
 ![theremin](IMG/theremin.jfif)
+Figura1 - Theremin sendo tocado por uma senhora.
 
-para tocar o instrumento, geralmente, a mão direita controla frequência do som (tonalidade) enquanto que a esquerda controla a amplitude do som (volume). Movimentos rápidos com a mão direita próximos à antena vertical, que controla a frequência, produzem efeitos de vibrato. Movimentos rápidos com a mão esquerda na antena circular, que controla o volume, produzem efeitos de trêmolo. 
+Para tocar o instrumento, geralmente, a mão direita controla frequência do som (tonalidade) enquanto que a esquerda controla a amplitude do som (volume). Movimentos rápidos com a mão direita próximos à antena vertical, que controla a frequência, produzem efeitos de vibrato. Movimentos rápidos com a mão esquerda na antena circular, que controla o volume, produzem efeitos de trêmolo. 
+
+![Lev_Theremin](IMG/Lev_Theremin.jpg)
+Figura 2 - Lev Theremin Tocando o instrumento por ele invnetado.
+
 
 
 
 # CONCEPÇÃO
-A antena de tonalidade o conectada a um circuito oscilador, que tem sua frequência de oscilação alterada conforme o campo elétrico formado entre a mão a antena.
 
-O circuito oscilador fixo, conforme o próprio nome evidencia, trata  de um circuito oscilador referência.
+Conforme o Regulamento do projeto PI 1 2019- 2, é obrigatório que o projeto contenha:
 
-O Mixer é responsável por pegar as frequências do Circuito oscilador fixo e do circuito oscilador variável e fazer a diferença entre essas frequências.
+* Circuitos Osciladores para Controle de Frequência - Para o controle de frequência serão utilizados 2 circuitos, um circuito oscilador fixo, que como o próprio nome apresenta, trata-se de um circuito de frequência fixa que servirá como uma referência. O outro circuito é conectado a antena de pitch (tonalidade) denominado oscilador de pitch, este circuito variará a frequência de oscilação conforme o campo elétrico gerado entre a mão do tocador e a antena.
 
-Circuito oscilador de volume é responsável por ajustar o volume conforme a aproximação ou afastamento da mão a antena do volume.
+* Mixer - O circuito Mixer ou misturador é responsável por fazer a (comparação) diferença  entre as frequências  provenientes do circuito oscilador fixo e do circuito oscilador de pitch. O resultado dessa comparação é enviado ao circuito amplificador controlado por tensão.
 
-Amplificador de áudio é responsável por amplificar os sinais produzidos para a reprodução disso em um alto falante. 
+* Circuito Oscilador para Controle de amplitude - A antena de volume é conectada e este circuito e funciona de forma parecida com o circuito de pitch, é um circuito oscilador que varia a frequência de oscilação conforme a interação do tocador com a antena.
+
+* Amplificador controlado por tensão - Este circuito é responsável por  receber os sinais produzidos pelo mixer e pelo controle de amplitude esses sinais serão processados e disponibilizados  na saída como resultante desses sinais.
+Estágio para amplificação - A resultante do circuito controlado por tensão é recebido pelo estágio para amplificação, onde estes sinais serão amplificados e adequados para uma carga (sonofletor).
+
+* Fonte interna - É o circuito responsável pela alimentação do circuito, trata-se de um Transformador abaixador com entrada 220/110V e saída +12 e -12, conectado a um retificador onda completa tap central, capacitores a fim de reduzir o ripple, reguladores de tensão e limites de corrente.  
+
+* Gabinete - É o local onde estarão localizados e fixados todos os circuitos, as antenas, os conectores de alimentação e os botões necessários. Este compartimento será fabricado em madeira mdf, com tampa em acrílico e pés de borracha 
+
+# DESENHO
+O Projeto THEREMIN analogico é um conjunto de 7 Circuitos que serão conectados conforme diagrama de blocos.
+
+![Diagrama_De_Blocos](IMG/Diagrama_De_Blocos.jpg)
+Figura 3 - apresenta diagrama de blocos dos Circuito do THEREMIN
+
+Vale destacar que o circuito da fonte nao esta apresentado no diagrama pois este circuito é responsável por alimentar eletricamente todos os outros 6 circuitos e o diagrama ficaria muito poluído visualmente com a apresentação desta.
+
+- OSCILADOR FIXO
+
+- OSCILADOR PITCH
+
+- MIXER
+
+- OSCILADOR DE AMPLITUDE
+
+- AMPLIFICADOR CONTROLADO POR TENSÃO
+
+- AMPLIFICADOR
+
+- FONTE INTERNA
 
