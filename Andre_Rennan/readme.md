@@ -1,8 +1,7 @@
 # Sumário
-1. Introdução
-2.  Concepção
-3.  Projetar 
-4.  Implementação
-5.  Operação
-6.  Referências
-7.  Datasheets
+1.  Concepção
+2.  Desenho
+3.  Implementação
+4.  Operação
+5.  Referências
+6.  Datasheets
