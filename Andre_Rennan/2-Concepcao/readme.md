@@ -33,4 +33,4 @@ Aluno: André Luiz e Rennan Gonçalves da Silva
         ◦ Entrada: Senoide (volume).
         ◦ Saída: Sinal DC para controle de amplificação.
     • Gabinete: destinado a alojar o produto eletroeletrônico;
-![2-Concepcao/blocotheremin.jpg]
+![blocotheremin](2-Concepcao/blocotheremin.jpg)
