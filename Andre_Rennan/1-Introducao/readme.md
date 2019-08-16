@@ -6,7 +6,8 @@ Professor: Luis Carlos Martinhago Schlichting e Luiz Alberto de Azevedo
 
 Aluno: André Luiz e Rennan Gonçalves da Silva
 
-#Introdução do projeto - Theremin 
+# Introdução do projeto - Theremin 
+
 O que é o Theremin?
 
 Um dos primeiros instrumentos musicais completamente eletrônico, desenvolvido pelo físico e músico russo Lev Sergeivich Termen (Léon Theremin) em 1920 e patenteado em 1927. 
