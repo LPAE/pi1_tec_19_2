@@ -6,13 +6,9 @@ Professor: Luis Carlos Martinhago Schlichting e Luiz Alberto de Azevedo
 
 Aluno: André Luiz e Rennan Gonçalves da Silva
 
-<<<<<<< HEAD:Andre_Rennan/1_Introducao/readme.md
-------
+-----------
 
-# Introdução do projeto - Theremim
-=======
 # Introdução do projeto - Theremin 
->>>>>>> 5a3642129097624cb82034adbb5c0b99263d759d:Andre_Rennan/1-Introducao/readme.md
 
 O que é o Theremin?
 
