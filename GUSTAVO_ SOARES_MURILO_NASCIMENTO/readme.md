@@ -51,17 +51,35 @@ Figura 3 - apresenta diagrama de blocos dos Circuito do THEREMIN
 
 Vale destacar que o circuito da fonte nao esta apresentado no diagrama pois este circuito é responsável por alimentar eletricamente todos os outros 6 circuitos e o diagrama ficaria muito poluído visualmente com a apresentação desta.
 
-- OSCILADOR FIXO
+- OSCILADOR 
 
+![OSCILADOR_FIXO](IMG/OSCILADOR_FIXO.jpeg)
+Trata-se de um oscilador fixo que será utilizado como referência para o circuito, a base de todos os circuitos aqui apresentados foram apresentadas pelos professores orientadores da unidade curricular PI-1. Este circuito originalmente foi projetado para oscilar em torno de  172 KHz, frequência que pode sofrer um ajuste fino através do potenciômetro instalado no circuito. A saída deste circuito é ligada ao circuito MIXER.
 - OSCILADOR PITCH
 
+![OSCILADOR_PITCH](IMG/OSCILADOR_PITCH.jpg)
+O circuito Oscilador PITCH será conectado a ANTENA PITCH,  frequência de oscilação varia neste circuito conforme a distância existente entre a mão e a antena, que formam uma capacitância parasita. A frequência de oscilação deste circuito deverá ser também de 172 KHz, e sua saída Também será conectada ao circuito MIXER.
 - MIXER
 
+![MIXER](IMG/MIXER.jpg)
+A função do MIXER é misturar os sinais provenientes dos osciladores (FIXO e de PITCH) e produzir um sinal de áudio. Para que a frequência seja audível é necessário que seja realizado a diferença entre as duas frequências que entram no circuito. A saída deste circuito é conectada ao AMPLIFICADOR CONTROLADO POR TENSÃO.
 - OSCILADOR DE AMPLITUDE
 
+![OSCILADOR_DE_AMPLITUDE](IMG/OSCILADOR_VOLUME.jpg)
+O circuito oscilador de volume é conectado a ANTENA DE VOLUME. Este circuito oscila na frequência de 441 KHz, está que variará conforme a distância entre a mão e a antena com o mesmo princípio do oscilador de pitch. Este circuito terá sua saída conectada ao Circuito AMPLIFICADOR CONTROLADO POR TENSÃO.
 - AMPLIFICADOR CONTROLADO POR TENSÃO
+
+![AMPLIFICADOR_CONTROLADO_POR_TENSÃO](IMG/AMPLIFICADOR_CONT.TENSAO.jpg)
+Este circuito é o mais complexo do Theremin, pois ele recebe o sinal de áudio proveniente do Circuito MIXER e o amplifica com um GANHO que varia conforme os gestos da mão próxima a antena de volume. O AMPLIFICADOR CONTROLADO POR TENSÃO  recebe os sinais do MIXER e do OSCILADOR DE VOLUME  e tua sua saída conectada ao AMPLIFICADOR.
 
 - AMPLIFICADOR
 
+![AMPLIFICADOR](IMG/AMPLIFICADOR_POTENCIA.jpg)
+O AMPLIFICADOR é o responsável por receber o sinal do AMPLIFICADOR CONTROLADO POR TENSÃO  e adequá lo para a saída ou seja adequá lo para funcionamento do sonofletor (alto falante).
+
 - FONTE INTERNA
 
+![FONTE_INTERNA](IMG/FONTE.jpg)
+A FONTE é o circuito responsável por toda a alimentação do THEREMIN. A fonte escolhida foi um modelo regulada por CMOS.
+
+# IMPLEMENTAÇÃO
