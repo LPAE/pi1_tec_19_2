@@ -36,4 +36,6 @@ Aqui apresentaremos a definição e concepção de cada bloco a ser usado no des
     -  Saída: Sinal DC para controle de amplificação.
     • Gabinete: destinado a alojar o produto eletroeletrônico;
 
-![blocotheremin](IMG/blocotheremin.jpg)
+A seguir temos o diagrama de bloco do theremin.
+
+![blocotheremin](blocotheremin.jpg)
