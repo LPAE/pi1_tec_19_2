@@ -14,7 +14,7 @@ O que é o Theremin?
 
 Um dos primeiros instrumentos musicais completamente eletrônico, desenvolvido pelo físico e músico russo Lev Sergeivich Termen (Léon Theremin) em 1920 e patenteado em 1927. 
 
-![introducao](1-Introdução/introducao.png)
+![introducao](introducao.png)
 
 figura 1 - Lev Sergeivich Termen tocando theremin.
 
