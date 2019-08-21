@@ -8,18 +8,18 @@ Para o desenvolvimento da estrutura amplificadora de potência foi ulitlizado o 
 -------
 A seguir temos o circuito do amplificador.
 
-![amplificador](IMG/amplificador.png)
+![amplificador](amplificador.png)
 
 -------
 A seguir temos a lista de componentes.
 
-![lista_compo_amplificador](IMG/lista_compo_amplificador.png)
+![lista_compo_amplificador](lista_compo.png)
 
 - Os resistores utilizados são de 1/4W, menos o de 1 ohm que é de 1W.
 - Os capacitores eletrolíticos são de 25V e poliester de 63V.
 ------
 A seguir temos o roteamento da PCI no software "Proteus".
 
-![amplificador_PCI](IMG/amplificador_PCI.png)
+![amplificador_PCI](amplificador_PCI.png)
 
 O projeto para corossão está disponibilizado na pasta.
