@@ -1,6 +1,6 @@
 # Projetar - Fonte de alimetação
 
-Para o desenvolvimento da fonte de alimentação do theremin, foi determinado verificando os demais circuito de duas tensões DC sendo elas +12V e +16V. Utilizando um transformador de +12VCA após a ponte retificador com o filtro capacitivo temos um tensão próxima do +16V desejada, e para +12V utilizaremos um regulador de tensão de 12V.
+Para o desenvolvimento da fonte de alimentação do theremin, foi determinado verificando os demais circuito, de duas tensões DC sendo elas +12V e +16V. Utilizando um transformador de +12VCA após a ponte retificador com o filtro capacitivo temos um tensão próxima do +16V desejada, e para +12V utilizaremos um regulador de tensão de 12V.
 
 -------
 
@@ -19,3 +19,16 @@ Irei dar uma breve descrição do motivo de cada componente.
 - U1: É um regulador de tesão de 12V.
 - C7: Capacitor utilizado para filtro de alta frequência provenientes do reguladorde tensão.
 - CHAVE: Importante lembrar da chave para ligar e desligar o circuito ao todo.
+- FU1: Fusivel de proteção para alimentação de +16V.
+
+A seguir a lista de componentes da fonte de alimentação.
+
+![lista](lista_compo.png)
+
+------
+
+A seguir temos o roteamento da PCI no software "Proteus".
+
+![fontePCI](fontePCI.png)
+
+O projeto para corossão está disponibilizado na pasta.
